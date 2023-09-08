@@ -64,6 +64,7 @@ function App() {
 
   return (
     <div className="app">
+      <div className='wrap'>
       <div className="calculator">
         <div className="display">
           {result ? <span>({result})</span> : ''} {calc || '0'}&nbsp;
@@ -83,6 +84,8 @@ function App() {
           <button onClick={calculate}>=</button>
         </div>
         </div>
+      </div>
+        <footer>Developed by Blossom Eze</footer>
     </div>
   );
 }
